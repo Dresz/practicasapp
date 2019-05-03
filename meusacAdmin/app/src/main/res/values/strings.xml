@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">meusacAdmin</string>
+    <string name="title_activity_pagina_principal">PaginaPrincipalActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="seleTipo">
+        <item>Seleccione una opcion</item>
+    </string-array>
+
+    <string-array name="seleCursoActividad">
+        <item>Seleccione una opcion</item>
+        <item>Curso</item>
+        <item>Actividad</item>
+    </string-array>
+    <string name="title_activity_archivos">Archivos</string>
+</resources>

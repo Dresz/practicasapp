@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergi.meusacadmin.actividadActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Agregar actividad"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="87dp"
+        android:text="Curso"
+        android:textSize="28sp" />
+
+    <Spinner
+        android:id="@+id/comboCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="23dp" />
+
+    <Spinner
+        android:id="@+id/comboActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="23dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/comboCurso"
+        android:layout_alignStart="@+id/comboCurso"
+        android:layout_below="@+id/comboCurso"
+        android:layout_marginTop="27dp"
+        android:text="Tipo de actividad"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/txtActividadNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/comboActividad"
+        android:layout_alignStart="@+id/comboActividad"
+        android:layout_below="@+id/comboActividad"
+        android:layout_marginTop="22dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nombre de la Actividad"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtActividadNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtActividadNombre"
+        android:layout_alignStart="@+id/txtActividadNombre"
+        android:layout_below="@+id/txtActividadNombre"
+        android:layout_marginTop="19dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nota de la actividad"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAgregarActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="Agregar" />
+
+</RelativeLayout>

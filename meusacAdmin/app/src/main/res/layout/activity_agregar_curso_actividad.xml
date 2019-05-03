@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergi.meusacadmin.agregarCursoActividadActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Agregar Curso/Actividad"
+        android:textSize="28sp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="87dp"
+        android:text="Curso/Actividad"
+        android:textSize="28sp"
+        android:id="@+id/textView" />
+
+        <Spinner
+        android:id="@+id/comboEleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="26dp"/>
+
+    <EditText
+        android:id="@+id/txtActCurNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignLeft="@+id/comboEleccion"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignStart="@+id/comboEleccion"
+        android:layout_below="@+id/comboEleccion"
+        android:layout_marginTop="28dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Nombre de la Actividad/Curso"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnActCurActividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtActCurNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Agregar" />
+
+</RelativeLayout>
